@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+display: grid;
+grid-template-rows: 50px 510px 50px;
+height: 100%;
+width: 100%;
+
+}
+
+.image{
+    text-align: center;
+    margin-top: 30vh;
+}
+
+    nav{
+        grid-column: span 1;
+        grid-row: span 1;
+        background-color: darkmagenta;
+    
+}
+
+footer{
+    grid-column: span 1;
+grid-row: span 1;
+background-color: darkmagenta;
+}
+
+
+main{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: black;
+    
+
+}
+
+a:hover {
+    background-color: gray;
+
+}
+
