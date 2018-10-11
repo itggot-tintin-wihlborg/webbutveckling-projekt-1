@@ -5,6 +5,7 @@ body{
 .wrapper{
 display: grid;
 grid-template-rows: 50px 510px 50px;
+
 height: 100%;
 width: 100%;
 
@@ -13,13 +14,15 @@ width: 100%;
 .image{
     text-align: center;
     margin-top: 30vh;
+    grid-column: span 4;
 }
 
     nav{
         grid-column: span 1;
         grid-row: span 1;
         background-color: darkmagenta;
-    
+        display: flex;
+        flex-direction: row;
 }
 
 footer{
@@ -38,7 +41,48 @@ main{
 }
 
 a:hover {
-    background-color: gray;
+    color: darkgrey;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: lightgrey;
+    text-decoration: none;
+}
+.home{
+    width: 25%;
+    background-color: darkmagenta;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
 
 }
+.characters{
+    width: 25%;
+    background-color: darkmagenta;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
 
+}
+.story{
+    width: 25%;
+    background-color: darkmagenta;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.misc{
+    width: 25%;
+    background-color: darkmagenta;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
