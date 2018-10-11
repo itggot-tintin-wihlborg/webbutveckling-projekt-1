@@ -86,3 +86,18 @@ a:active {
     vertical-align: middle;
     line-height: 50px;
 }
+.cbackground{
+    background-color: black;
+    height: 100vh;
+    width: auto;
+
+}
+.cboxes{
+    display: flex;
+}
+.sans{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
