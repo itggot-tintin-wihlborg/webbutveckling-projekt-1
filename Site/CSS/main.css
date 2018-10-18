@@ -51,6 +51,7 @@ a:visited {
 a:link {
     color: white;
     text-decoration: none;
+
 }
 a:active {
     color: lightgrey;
@@ -94,10 +95,25 @@ a:active {
 }
 .cboxes{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .sans{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     background-color: blueviolet;
+    margin: 10px;
+}
+.undyne{
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
+}
 
+.papyrus{
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
 }
