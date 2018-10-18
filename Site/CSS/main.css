@@ -97,23 +97,64 @@ a:active {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .sans{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     background-color: blueviolet;
-    margin: 10px;
+    margin: 20px 50px 20px 50px;
 }
 .undyne{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+
 }
 
 .papyrus{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+
+}
+
+.toriel{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+
+}
+
+.asgore{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+
+}
+
+.napstablook{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+}
+
+article{
+    justify-content: center;
+    margin: -17px 150px 0px 150px;
+    background-color: black;
+    color: white;
+    height: 150vh;
+}
+
+.storybg{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
 }
