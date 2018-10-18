@@ -100,50 +100,7 @@ a:active {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-.sans{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
-}
-.undyne{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
 
-}
-
-.papyrus{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
-
-}
-
-.toriel{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
-
-}
-
-.asgore{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
-
-}
-
-.napstablook{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    margin: 20px 50px 20px 50px;
-}
 
 article{
     justify-content: center;
@@ -158,3 +115,24 @@ article{
     height: 100%;
     background-color: gray;
 }
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
