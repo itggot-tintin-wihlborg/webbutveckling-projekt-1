@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 .wrapper{
@@ -17,18 +19,18 @@ width: 100%;
     grid-column: span 4;
 }
 
-    nav{
-        grid-column: span 1;
-        grid-row: span 1;
-        background-color: darkmagenta;
-        display: flex;
-        flex-direction: row;
+nav{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: row;
 }
 
 footer{
     grid-column: span 1;
-grid-row: span 1;
-background-color: darkmagenta;
+    grid-row: span 1;
+    background-color: darkmagenta;
 }
 
 
@@ -40,23 +42,29 @@ main{
 
 }
 
-a:hover {
-    color: darkgrey;
-    text-decoration: none;
-}
+
 a:visited {
     color: white;
     text-decoration: none;
 }
+
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
 a:link {
     color: white;
     text-decoration: none;
 
 }
+
 a:active {
-    color: lightgrey;
+    color: gray;
     text-decoration: none;
 }
+
 .home{
     width: 25%;
     background-color: darkmagenta;
@@ -107,7 +115,7 @@ article{
     margin: -17px 150px 0px 150px;
     background-color: black;
     color: white;
-    height: 150vh;
+    height: 100%;
 }
 
 .storybg{
